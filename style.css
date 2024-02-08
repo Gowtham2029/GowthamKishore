@@ -67,7 +67,7 @@ body {
 
 @media (width< 480px) {
   .header {
-    height: 10%;
+    height: 11%;
   }
   .header > .logoG {
     margin: 0.5rem;
