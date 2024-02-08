@@ -9,6 +9,11 @@ const skills = document.getElementById("skills");
 const body = document.querySelector("body");
 const goToTop = document.querySelector(".back-to-top");
 const name = document.getElementById("name");
+const year = document.querySelector("#year");
+
+const date = new Date();
+year.textContent = date.getFullYear();
+
 
 const txt = "Gowtham Kishore";
 var speed = 70;
