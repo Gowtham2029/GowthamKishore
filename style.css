@@ -64,6 +64,23 @@ body {
   }
 }
 
+@media (width< 420px) {
+  .header {
+    height: 10%;
+  }
+  .header > .logoG {
+    margin: 0.5rem;
+  }
+  .header > .logoG > img {
+    height: 95%;
+    width: 80%;
+  }
+  .header > .navigation > .nav-list {
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+}
+
 @media (width <= 1000px) {
   .about > .image {
     flex-wrap: wrap;
@@ -73,6 +90,16 @@ body {
 @media (width< 520px) {
   #contact > .contactme {
     margin-top: 40%;
+  }
+  .about > .content {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+  .about > .content > p {
+    font-size: smaller;
+    width: 100vw;
   }
 }
 
