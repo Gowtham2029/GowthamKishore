@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
     <link rel="stylesheet" href="style.css">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
@@ -27,7 +28,7 @@
         </div>
     </div>
     <!-- Home -->
-    <div class="sub-heading"><h1 style="font-size: 2.5rem;margin-top:3rem">Hello.!</h1> <h2 style="font-size: 2.5rem;">I am, <span style="color:rgb(232, 195, 101);font-size:2.5rem" id="name"></span></h2></div>
+    <div class="sub-heading"><div class="container-app" style="height:4rem"><span style="font-size:2.5rem;margin-top:3rem;display:block;text-align:center;font-weight:500" id="app"></span></div> <h2 style="font-size: 2.5rem;">I am, <span style="color:rgb(232, 195, 101);font-size:2.5rem" id="name">Gowtham Kishore</span></h2></div>
     <section class="Intro">
         <div class="avatar"><img src="Avatar.jpg" alt="Avatar" style="height:18rem"></div>
         <div><h1 style="margin-top:2rem; font-size:2rem">Welcome to my portfolio</h1><h2 style="font-size:1.3rem; font-weight: lighter; width:60%; margin:0 auto">A window into my creative world, professional journey, and the passion that fuels my work. I am <span>Gowtham</span>, a Student with a deep commitment to innovation, excellence, and the relentless pursuit of my craft, The journey begins here.</h2></div>
@@ -37,8 +38,10 @@
     <section class="about" id="about">
         <div class="aboutme"><h1 style="font-size:2rem" id="aboutme">About Me</h1><h2 style="margin:0.5em;color:rgb(232, 195, 101);background-color:white;border-radius:2em;font-size:1rem;width:30%;margin:0.5rem auto"><strong>
             Who I am</strong></h2></div>
-        <div class="image content"><img src="My-image.jpg" alt="My image" style="height:25rem;border-radius:1rem">
-            <p>I am Gowtham Kishore.  I am fascinating about the technology which is emerging these days and eager to see and take part in the development and change in technology of upcoming decade.Besides web development, I am skilled in exploring various AI tools and problem solving.</p></div>
+        <div class="image content">
+            <img src="My-image.jpg" alt="My image" style="height:25rem;border-radius:1rem">
+            <p>I am Gowtham Kishore.  I am fascinating about the technology which is emerging these days and eager to see and take part in the development and change in technology of upcoming decade.Besides web development, I am skilled in exploring various AI tools and problem solving.</p>
+           </div>
     </section>
 
     <!-- Hobbies -->
@@ -194,7 +197,19 @@
     <a href="#" class="back-to-top">
         <div class="material-icons" style="font-weight:500;display:flex;justify-content:center ">⬆</div>
     </a>
-    <script src="index.js"></script>
+    <script>
+        const typed = new Typed('#app', {
+        strings: ['Hello', "Namaste", 'Bonjour','Nǐ hǎo', 'Ciao'],
+        typeSpeed: 100,
+        loop: true,
+        autoStart: true,
+        pauseFor:1000
+        
+      })
+    </script>
+    <script src="index.js">
+        
+    </script>
 </body>
 </html>
 
