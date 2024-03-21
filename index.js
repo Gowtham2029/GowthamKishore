@@ -15,9 +15,6 @@ const year = document.querySelector("#year");
 const date = new Date();
 year.textContent = date.getFullYear();
 
-
-
-
 ham.addEventListener("click", (e) => {
   container.classList.toggle("navigation");
 
